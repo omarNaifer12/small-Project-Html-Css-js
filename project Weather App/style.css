@@ -7,18 +7,14 @@
 body {
     background-color: black;
 }
-
 .card {
     width: 90%;
     max-width: 470px;
- background-color: rgb(24, 66, 90);
-   
+ background-color: rgb(24, 66, 90); 
     margin: 100px auto 0;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-
-
 }
 .search{
 width: 100%;
@@ -35,7 +31,6 @@ border-radius: 30px;
 flex: 1;
 margin-right: 16px;
 font-size: 18px;
-
 }
 .search button {
     border: 0;
@@ -46,7 +41,6 @@ font-size: 18px;
     height: 60px;
     cursor: pointer;
 }
-
 .search button img {
     width: 16px;
     
@@ -64,7 +58,6 @@ font-size: 18px;
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
-
 }
 .Details{
     display: flex;
