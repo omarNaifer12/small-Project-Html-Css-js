@@ -8,7 +8,6 @@ createBtn.addEventListener("click",()=>{
     inputBox.setAttribute("contenteditable","true")
     image.src="images/delete.png"
     notesContainer.appendChild(inputBox).appendChild(image)
-   
 })
 function showNotes()
 {
