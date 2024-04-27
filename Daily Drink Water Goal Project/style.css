@@ -28,7 +28,7 @@ h3 {
   margin: 10px 0;
 }
 
-.cup {
+.cup{
   background-color: #fff;
   border: 4px solid var(--border-color);
   color: var(--border-color);
@@ -37,9 +37,9 @@ h3 {
   width: 150px;
   margin: 30px 0;
   display: flex;
- 
+  flex-direction: column;
   overflow: hidden;
-  flex-direction:column;
+
 }
 
 .cup.cup-small {
@@ -60,7 +60,6 @@ h3 {
   background-color: var(--fill-color);
   color: #fff;
 }
-
 .cups {
   display: flex;
   flex-wrap: wrap;
@@ -68,7 +67,6 @@ h3 {
   justify-content: center;
   width: 280px;
 }
-
 .remained {
   display: flex;
   flex-direction: column;
@@ -87,6 +85,7 @@ h3 {
 .remained small {
   font-size: 12px;
 }
+
 .percentage {
   background-color: var(--fill-color);
   display: flex;
